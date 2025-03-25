@@ -1,0 +1,33 @@
+.container{
+ max-width: 1152px;
+ width: 100%;
+ padding: 0 10px;
+ margin: 0 auto;
+}
+.navbar{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-lists{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-button{
+    padding:  5px 10px;
+    border-radius: 6px;
+    background: #4CAF4F;
+    color: white;
+    font-size: 14px;
+}
+.button-1{
+    background: white;
+    color: #4CAF4F;
+    font-size: 14px;
+}
