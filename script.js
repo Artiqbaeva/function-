@@ -1,14 +1,16 @@
 // 1 
 {
-   function createUser(){
+   function createUser(name, age){
     return{
-        name: "Selena",
-        age: 28,
+        name,
+        age,
+        isAdmin: false
     }
    }
-   let User = Object.assign(createUser(), {isAdmin: false})
-   console.log(User);
-   
+
+let user = createUser("Jon", 18)
+console.log(user);
+
 }
 // 2
 {
