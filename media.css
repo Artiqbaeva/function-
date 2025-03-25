@@ -1,0 +1,24 @@
+@media(max-width: 1150px){
+    .navbar-lists{
+        display: none;
+    }
+    .hero{
+       flex-direction: column;
+       margin-top: 50px;
+    }
+    .hero h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .clients-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto 0;
+        gap: 30px;
+        margin-top: 40px;
+    }
+   .system-card {
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+}
